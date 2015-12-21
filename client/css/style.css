@@ -6,6 +6,13 @@
  * Made By MaterializeCSS.com
  */
 
+
+ body {
+  font-family: 'Orbitron', sans-serif;
+
+
+ }
+
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -54,4 +61,52 @@ p {
 
 footer.page-footer {
   margin: 0;
+}
+
+
+.NewParWidth {
+  /*margin: 0 10px;*/
+  margin-bottom: 30px;
+  min-height:500px;
+}
+
+.Leave1 {
+  color: white;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.NewButton {
+  background-color: whitesmoke;
+  color: black;
+}
+
+.NewFlash {
+  color: #3399FF;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.CalltoAction {
+  font-size:.8em;
 }
